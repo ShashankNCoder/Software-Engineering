@@ -10,10 +10,10 @@ Original file is located at
 """
 
 #quadratic equation y=ax^2+bx+c
-a=3
-b=4
-c=5
-x=4.5
+a=float(input("Enter the value of a : "))
+b=float(input("Enter the value of b : "))
+c=float(input("Enter the value of c : "))
+x=float(input("Enter the value of x : "))
 
 y=a*x*x+b*x+c
 print("For the values of ",a, " ",b," ",c,"Y is : ",y)
